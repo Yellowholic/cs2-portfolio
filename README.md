@@ -1,7 +1,7 @@
 # cs2-portfolio
 ## Autentico, Jeanne Audrey R. 
 ## 8 - Dahlia 
-### Links:
+### Links down below 
 > Distance Activity:
 [Distance.py](q1/Autentico_JeanneAudrey_Distance.py)
 >
