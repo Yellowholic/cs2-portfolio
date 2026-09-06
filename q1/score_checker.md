@@ -77,7 +77,7 @@ END
 # Part 4 - Clean Code Implementation
 ## Source code
 Insert your source code.
-![Score Checker Source Code](./q1/score_checker.py)
+![Score Checker Source Code](q1/score_checker.py)
 
 ---
 # Part 5 - Testing
