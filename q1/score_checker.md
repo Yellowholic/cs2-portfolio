@@ -66,13 +66,21 @@ Insert your flowchart below.
 Create a pseudocode showing the logic of your program.
 
 ##Sample Pseudocode
+>
 START
+>
 INPUT score
+>
 IF score < 0 OR score > 100 THEN
+>
 DISPLAY "Invalid score."
+>
 ELSE IF score >= 90 THEN
+>
 DISPLAY "Outstanding"
+>
 ....
+>
 END
 
 ---
