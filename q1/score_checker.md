@@ -19,30 +19,30 @@ Scores below 0 or above 100 are considered invalid.
 # Part 1 - Analyze the Logic
 ## Input
 What information does the program need?
-> Write your answer here.
+> The program needs a revised version of the given code.
 
 ## Valid Range
 **Minimum valid score:**
-> Write your answer here.
+> 0
 **Maximum valid score:**
 
-> Write your answer here.
+> 100
 
 ## Possible Outputs
 List all possible outputs of the program.
-1.
-2.
-3.
-4.
-5.
+1. A correct, working program
+2. A valid, not working program
+3. A wrong program that interchanges score outputs
+4. A program that has the right track but is still wrong
+5. A program that is wrong entirely
 
 ## Boundary Condition
 What condition will you use to determine whether the score is valid?
-> Write your answer here.
+> 0-100
 
 ## Multiple Decision Paths
 Explain how the program decides which classification should be displayed.
-> Write your answer here.
+> The program will identify your standing in your grades. It will tell you the classification you're in through the score you gave the program.
 ---
 # Part 2 - Flowchart
 Create a flowchart showing the logic of your program.
