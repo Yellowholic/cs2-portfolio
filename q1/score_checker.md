@@ -65,7 +65,7 @@ Insert your flowchart below.
 # Part 3 - Pseudocode
 Create a pseudocode showing the logic of your program.
 
-##Sample Pseudocode
+## Sample Pseudocode
 >
 START
 >
