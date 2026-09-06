@@ -1,5 +1,4 @@
 # cs2-portfolio
----
 ## Autentico, Jeanne Audrey R. 
 ## 8 - Dahlia 
 ### Links down below 
