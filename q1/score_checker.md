@@ -83,30 +83,54 @@ DISPLAY "Outstanding"
 >
 END
 ### My Pseudocode
+
 Module Main
     Declare Integer score
+    >
     Declare String A, B, C, D, Invalid
+    >
     Display "Give me your score:"
+    >
     Input score
+    >
     If score < 0 or score > 100 Then
+    >
         Display "Invalid"
+    >
     Else
+    >
         If score >= 90 Then
+    >
             Display "A"
+    >
         Else
+    >
             If score >= 80 Then
+    >
                 Display "B"
+    >
             Else
+    >
                 If score >= 75 Then
+    >
                     Display "C"
+    >
                 Else
+    >
                     If score < 75 Then
+    >
                         Display "D"
+    >
                     End If
+    >
                 End If
+    >
             End If
+    >
         End If
+    >
     End If
+    >
 End Module
 ---
 # Part 4 - Clean Code Implementation
