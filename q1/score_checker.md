@@ -25,8 +25,9 @@ What information does the program need?
 ## Valid Range
 **Minimum valid score:**
 > 0
+>
 **Maximum valid score:**
-
+>
 > 100
 
 ## Possible Outputs
