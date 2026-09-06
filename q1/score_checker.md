@@ -1,6 +1,7 @@
 # Clean Decision Code Makeover: Student Score Checker
-**Name:** Your Name
-**Section:** Your Section
+**Name:** Jeanne Audrey R. Autentico
+>
+**Section:** 8 - Dahlia
 ---
 ## Activity Overview
 
