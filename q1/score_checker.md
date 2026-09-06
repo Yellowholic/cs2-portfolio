@@ -82,7 +82,7 @@ DISPLAY "Outstanding"
 ....
 >
 END
-### My Pseudocode
+## My Pseudocode
 
 Module Main
     Declare Integer score
@@ -132,6 +132,7 @@ Module Main
     End If
     >
 End Module
+
 ---
 # Part 4 - Clean Code Implementation
 ## Source code
