@@ -86,10 +86,8 @@ END
 Module Main
     Declare Integer score
     Declare String A, B, C, D, Invalid
-
     Display "Give me your score:"
     Input score
-
     If score < 0 or score > 100 Then
         Display "Invalid"
     Else
