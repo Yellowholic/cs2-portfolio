@@ -60,7 +60,7 @@ Your flowchart should show:
 ## Flowchart
 ### Insert your flowchart below.
 >
-
+[Score Checker Flowchart](q1/scorechecker_flowchart.png)
 ---
 
 # Part 3 - Pseudocode
@@ -132,8 +132,8 @@ End Module
 ---
 # Part 4 - Clean Code Implementation
 ## Source code
-Insert your source code.
-![Score Checker Source Code](q1/score_checker.py)
+### Insert your source code.
+>
 
 ---
 # Part 5 - Testing
