@@ -59,6 +59,7 @@ Your flowchart should show:
 
 ## Flowchart
 Insert your flowchart below.
+>
 ![Score Checker Flowchart](q1/score_checker_flowchart.png)
 ---
 
