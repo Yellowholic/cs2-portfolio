@@ -134,7 +134,7 @@ End Module
 ## Source code
 ### Insert your source code.
 >
-
+[Score Checker Source Code](score_checker.py)
 ---
 # Part 5 - Testing
 | Test | Input | Purpose | Expected Output | Actual Output | Result |
