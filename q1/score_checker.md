@@ -139,8 +139,8 @@ End Module
 # Part 5 - Testing
 | Test | Input | Purpose | Expected Output | Actual Output | Result |
 |---|---:|---|---|---|---|
-| 1 | -1 | Below minimum | | | |
-| 2 | 0 | Minimum boundary | | | |
+| 1 | -1 | Below minimum | Invalid | Invalid | Pass |
+| 2 | 0 | Minimum boundary | Your grade is D | Your grade is D| Pass |
 | 3 | 74 | Below Satisfactory boundary | | | |
 | 4 | 75 | Satisfactory boundary | | | |
 | 5 | 80 | Very Satisfactory boundary | | | |
