@@ -141,31 +141,31 @@ End Module
 |---|---:|---|---|---|---|
 | 1 | -1 | Below minimum | Invalid | Invalid | Pass |
 | 2 | 0 | Minimum boundary | Your grade is D | Your grade is D| Pass |
-| 3 | 74 | Below Satisfactory boundary | | | |
-| 4 | 75 | Satisfactory boundary | | | |
-| 5 | 80 | Very Satisfactory boundary | | | |
-| 6 | 90 | Outstanding boundary | | | |
-| 7 | 100 | Maximum boundary | | | |
-| 8 | 101 | Above maximum | | | |
+| 3 | 74 | Below Satisfactory boundary | Your grade is D | Your grade is D | Pass |
+| 4 | 75 | Satisfactory boundary | Your grade is C | Your grade is C | Pass |
+| 5 | 80 | Very Satisfactory boundary | Your grade is B | Your grade is B | Pass |
+| 6 | 90 | Outstanding boundary | Your grade is D | Your grade is D | Pass |
+| 7 | 100 | Maximum boundary | Your grade is A | Your grade is A | Pass |
+| 8 | 101 | Above maximum | Invalid | Invalid | Pass |
 
 ---
 
 ## Testing Reflection
 ### 1. Why is it important to test the values 0 and 100?
-> Write your answers here
+> To verify if even you have these scores, the output is correct
 ### 2. Why did you also test -1 and 101?
-> Write your answers here
+> So that you would know the limitations for you score
 ### 3. Which test helped you understand boundary conditions the most?
-> Write your answers here
+> The 7th test
 ### 4. Did any of your tests initially fail? If yes, what did you change in your program?
-> Write your answers here
+> Nope
 
 ---
 
 # Reflection
 ### 1. How did selection structures make the program more useful?
-> Write your answers here
+> It helped through realizing that a python program will go through a sequence and it made it more useful on the invalid part
 ### 2. How did proper comments and readable formatting improve your program?
-> Write your answers here
+> Proper comments helped me to understand what i did and what is the purpose of that section is
 ### 3. Why is it useful to plan the program using a flowchart and pseudocode before writing the code?
-> Write your answers here
+> So you can understand the sequence of what you will be typing
