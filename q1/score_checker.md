@@ -60,7 +60,7 @@ Your flowchart should show:
 ## Flowchart
 ### Insert your flowchart below.
 >
-[Score Checker Flowchart](q1/scorechecker_flowchart.png)
+[Score Checker Flowchart](scorechecker_flowchart.png)
 ---
 
 # Part 3 - Pseudocode
