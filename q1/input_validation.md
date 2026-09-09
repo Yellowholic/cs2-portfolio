@@ -1,5 +1,6 @@
 # Input Validation and Output Verification
 **Activity:** PSHS Workshop Registration Validator
+
 **Name:** Jeanne Audrey R. Autentico
 **Section:** 8 - Dahlia
 **Quarter:** 1
@@ -18,10 +19,9 @@ The program validates:
 ---
 # Part A - Validation Requirements
 Complete the table below before writing your program.
-| Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error
-Message |
+| Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message |
 |---|---|---|---|---|---|
-| Student Name | | | | | |
+| Student Name | | | | | Input invalid, try again ffggggrrrrrrrrrrrr|
 | Age | | | | | |
 | Grade Level | | | | | |
 | Email Address | | | | | |
@@ -29,7 +29,7 @@ Message |
 ---
 ## Validation Questions
 ### 1. Why should the student name not be blank?
-> Write your answer here.
+> 
 ### 2. Why should age be checked for both data type and range?
 > Write your answer here.
 ### 3. Why should grade level only accept specific values?
