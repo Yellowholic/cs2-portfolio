@@ -21,23 +21,23 @@ The program validates:
 Complete the table below before writing your program.
 | Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error Message |
 |---|---|---|---|---|---|
-| Student Name | | | | | Input invalid, try again ffggggrrrrrrrrrrrr|
-| Age | | | | | |
-| Grade Level | | | | | |
-| Email Address | | | | | |
-| Registration Code | | | | | |
+| Student Name | Non-empty string | Presence Validation | "" | Cannot be black spaces | Student name is required. |
+| Age | Integer number | Data type + range | fourteen, 10, 19 | Must be a valid integer and between 11 and 18 | Your age should be a number and you should be in the range of 11 - 18 |
+| Grade Level | Integer value | Acceptable value | 13, 6, G8 | Must be 7, 8, 9, 10, 11, 12 | Invalid grade level |
+| Email Address | Text string | Simple Pattern | studentpshs.edu.ph | Must contain both '@' and '.' characters | Invalid email address format. |
+| Registration Code | Text string | Length Validation | ABC, ABCDEFG | Must be exactly 6 characters long | The registration code must contain exactly 6 characters. |
 ---
 ## Validation Questions
 ### 1. Why should the student name not be blank?
-> 
+> Every student must have a name so the workshop organizers know exactly who is registering. Leaving it blank would mean creating a blank ID badge and a registration for nobody.
 ### 2. Why should age be checked for both data type and range?
-> Write your answer here.
+> We check the data type to make sure the user typed an actual whole number instead of words like "fourteen" which breaks the system. We check the range to make sure the student is between 11 and 18 years old, which is the required age group for this workshop.
 ### 3. Why should grade level only accept specific values?
-> Write your answer here.
+> The program only accepts specific values from 7 to 12 because those are the only actual high school grades at PSHS. Accepting any other numbers like 5 or 15 would be a mistake because those grades do not exist at the school.
 ### 4. What format requirements did you use for the email address?
-> Write your answer here.
+> The email must contain both an @ symbol and a . dot. If it does not have these two characters, it cannot be a real email address
 ### 5. What length requirement did you use for the registration code?
-> Write your answer here.
+> The registration code must be exactly 6 characters long. If it is shorter or longer, it is invalid because official workshop codes are strictly 6 units long.
 ---
 # Part B - Program Design
 Before writing your program, create either a **flowchart or pseudocode** showing its logic.
