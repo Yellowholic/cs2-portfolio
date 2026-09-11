@@ -42,14 +42,77 @@ Complete the table below before writing your program.
 # Part B - Program Design
 Before writing your program, create either a **flowchart or pseudocode** showing its logic.
 ## Flowchart
-Insert your flowchart below.
-![Workshop Validator Flowchart](workshop_validator_flowchart.png)
+> N/A
 OR
 ## Pseudocode
 
 ```text
 START
-Write your pseudocode here.
+    SET is_valid = True
+    SET error_message = ""
+
+    OUTPUT "Enter student name: "
+    READ name
+    IF name is empty or only spaces THEN
+        is_valid = False
+        error_message = "Student name is required."
+    ENDIF
+
+    IF is_valid IS True THEN
+        OUTPUT "Enter age: "
+        READ age_input
+        TRY
+            CONVERT age_input TO integer STORE IN age
+            IF age < 11 OR age > 18 THEN
+                is_valid = False
+                error_message = "Age must be from 11 to 18."
+            ENDIF
+        EXCEPT
+            is_valid = False
+            error_message = "Age must be a number."
+        ENDTRY
+    ENDIF
+
+    IF is_valid IS True THEN
+        OUTPUT "Enter grade level: "
+        READ grade
+        IF grade NOT IN ["7", "8", "9", "10", "11", "12"] THEN
+            is_valid = False
+            error_message = "Invalid grade level."
+        ENDIF
+    ENDIF
+
+    IF is_valid IS True THEN
+        OUTPUT "Enter email: "
+        READ email
+        IF "@" NOT IN email OR "." NOT IN email THEN
+            is_valid = False
+            error_message = "Invalid email address format."
+        ENDIF
+    ENDIF
+
+    IF is_valid IS True THEN
+        OUTPUT "Enter registration code: "
+        READ reg_code
+        IF length of reg_code IS NOT EQUAL TO 6 THEN
+            is_valid = False
+            error_message = "The registration code must contain exactly 6 characters."
+        ENDIF
+    ENDIF
+
+    OUTPUT "------------------------------"
+    IF is_valid IS True THEN
+        OUTPUT "REGISTRATION ACCEPTED"
+        OUTPUT "------------------------------"
+        OUTPUT "Student: " + name
+        OUTPUT "Age: " + age
+        OUTPUT "Grade Level: " + grade
+        OUTPUT "Email: " + email
+        OUTPUT "Registration Code: " + reg_code
+    ELSE
+        OUTPUT "REGISTRATION NOT ACCEPTED"
+        OUTPUT "Reason: " + error_message
+    ENDIF
 END
 ```
 
