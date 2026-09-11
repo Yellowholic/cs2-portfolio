@@ -43,6 +43,7 @@ Complete the table below before writing your program.
 Before writing your program, create either a **flowchart or pseudocode** showing its logic.
 ## Flowchart
 > N/A
+>
 OR
 ## Pseudocode
 
