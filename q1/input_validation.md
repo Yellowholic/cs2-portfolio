@@ -219,8 +219,9 @@ Test your program using both valid and invalid inputs.
 | 8 | Email = `studentpshs.edu.ph` | Pattern | | | |
 | 9 | Registration Code = `ABC` | Length | | | |
 | 10 | Registration Code = `CS2026` | Valid length | | | |
-
->Write **PASS** when the actual output matches the expected output.
+>
+Write **PASS** when the actual output matches the expected output.
+>
 Write **FAIL** when it does not.
 ---
 # Part E - Output Verification
