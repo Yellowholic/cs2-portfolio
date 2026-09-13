@@ -214,7 +214,7 @@ Test your program using both valid and invalid inputs.
 | 3 | Age = `fourteen` | Data type | REGISTRATION NOT ACCEPTED (Your age should be a number.) | REGISTRATION NOT ACCEPTED (Your age should be a number.) | PASS |
 | 4 | Age = `11` | Minimum boundary | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
 | 5 | Age = `18` | Maximum boundary | REGISTRATION ACCEPTED | REGISTRATION ACCEPTED | PASS |
-| 6 | Age = `10` | Range | (Your age should be a number and you should be in the range of 11 - 18.) | REGISTRATION NOT ACCEPTED (Your age should be a number and you should be in the range of 11 - 18.) | PASS |
+| 6 | Age = `10` | Range | REGISTRATION NOT ACCEPTED (Your age should be a number and you should be in the range of 11 - 18.) | REGISTRATION NOT ACCEPTED (Your age should be a number and you should be in the range of 11 - 18.) | PASS |
 | 7 | Grade Level = `13` | Acceptable value | REGISTRATION NOT ACCEPTED (Invalid grade level.) | REGISTRATION NOT ACCEPTED (Invalid grade level.) | PASS |
 | 8 | Email = `studentpshs.edu.ph` | Pattern | REGISTRATION NOT ACCEPTED (Invalid email address format) | REGISTRATION NOT ACCEPTED (Invalid email address format) | PASS |
 | 9 | Registration Code = `ABC` | Length | REGISTRATION NOT ACCEPTED (The registration code must contain exactly 6 characters.) | REGISTRATION NOT ACCEPTED (The registration code must contain exactly 6 characters.) | PASS |
