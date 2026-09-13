@@ -29,15 +29,15 @@ Complete the table below before writing your program.
 ---
 ## Validation Questions
 ### 1. Why should the student name not be blank?
-> Every student must have a name so the workshop organizers know exactly who is registering. Leaving it blank would mean creating a blank ID badge and a registration for nobody.
+> Every student must have a name. If nothing was typed in it would mean that no one would be registering. 
 ### 2. Why should age be checked for both data type and range?
-> We check the data type to make sure the user typed an actual whole number instead of words like "fourteen" which breaks the system. We check the range to make sure the student is between 11 and 18 years old, which is the required age group for this workshop.
+> We check the data type to make sure the person, who is registering, typed an actual whole number; meanwhile, we check the range to make sure the student is between 11 and 18 years old, which is the required age group for the workshop.
 ### 3. Why should grade level only accept specific values?
-> The program only accepts specific values from 7 to 12 because those are the only actual high school grades at PSHS. Accepting any other numbers like 5 or 15 would be a mistake because those grades do not exist at the school.
+> The program only accepts specific values from 7 to 12 because those are the only actual highschool grades. 
 ### 4. What format requirements did you use for the email address?
-> The email must contain both an @ symbol and a . dot. If it does not have these two characters, it cannot be a real email address
+> The email must have both an "@" symbol and a "." dot. If it does not have these two characters, it cannot be a real email address.
 ### 5. What length requirement did you use for the registration code?
-> The registration code must be exactly 6 characters long. If it is shorter or longer, it is invalid because official workshop codes are strictly 6 units long.
+> The registration code must be exactly 6 characters long.
 ---
 # Part B - Program Design
 Before writing your program, create either a **flowchart or pseudocode** showing its logic.
@@ -131,7 +131,57 @@ Your design should show:
 [`workshop_validator.py`](workshop_validator.py)
 ## Final Code
 ```python
-# Paste your final code here.
+# Collecct all the inputs 
+name = input("Enter student name: ").strip()
+age_input = input("Enter age: ").strip()
+grade = input("Enter grade level: ").strip()
+email = input("Enter email: ").strip()
+reg_code = input("Enter registration code: ").strip()
+
+# Check validation rules
+all_errors = "" 
+
+# Checking Student Name
+if name == "":
+    all_errors = all_errors + "- Student name is required.\n"
+
+# Checking Age
+if age_input.isdigit() == False:
+    all_errors = all_errors + "- Your age should be a number and you should be in the range of 11 - 18\n"
+else:
+    if int(age_input) < 11 or int(age_input) > 18:
+        all_errors = all_errors + "- Your age should be a number and you should be in the range of 11 - 18\n"
+
+# Checking Grade Level
+if grade not in ["7", "8", "9", "10", "11", "12"]:
+    all_errors = all_errors + "- Invalid grade level.\n"
+
+# Checking Email Address
+if "@" not in email or "." not in email:
+    all_errors = all_errors + "- Invalid email address format.\n"
+
+# Checking Registration Code
+if len(reg_code) != 6:
+    all_errors = all_errors + "- The registration code must contain exactly 6 characters.\n"
+
+
+# Print the results
+print("------------------------------")
+
+if all_errors != "":
+    # If our error text is not empty, it means mistakes were found
+    print("REGISTRATION NOT ACCEPTED")
+    print("Reasons:")
+    print(all_errors) 
+else:
+    # If our error text is still completely blank, everything is perfect
+    print("REGISTRATION ACCEPTED")
+    print("------------------------------")
+    print("Student:", name)
+    print("Age:", age_input)
+    print("Grade Level:", grade)
+    print("Email:", email)
+    print("Registration Code:", reg_code)
 ```
 
 ---
@@ -145,7 +195,6 @@ Explain where you used data type validation.
 ### Range Validation
 Explain where you used range validation.
 > Write your answer here.
-
 ### Acceptable Value Validation
 Explain where you used acceptable value validation.
 > Write your answer here.
