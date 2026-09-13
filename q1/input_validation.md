@@ -188,22 +188,22 @@ else:
 ## Validation Techniques Used
 ### Presence Validation
 Explain where you used presence validation.
-> Write your answer here.
+> Presence validation was used on the student name part. The program removes trailing spaces using .strip() and checks if the string is empty to make sure a blank response is blocked.
 ### Data Type Validation
 Explain where you used data type validation.
-> Write your answer here.
+> Data type validation was used on the age part. The program uses a try-except block with "int" to process inputs containing alphabetical words preventing system confusion.
 ### Range Validation
 Explain where you used range validation.
-> Write your answer here.
+> Range validation was also used on the age part. An if conditional checks whether the numeric value is in between the allowed boundaries of 11 to 18.
 ### Acceptable Value Validation
 Explain where you used acceptable value validation.
-> Write your answer here.
+> Acceptable value validation was used on the grade level part. The program checks if the string input exists within an explicit list of allowed high school grades ("7", "8", "9", "10", "11", "12").
 ### Pattern Validation
 Explain the simple pattern rule you used.
-> Write your answer here.
+> Pattern Validation was used on the email address part. The program checks whether the format entered was correct by checking if both the "@" symbol and a "." character exists anywhere inside the input.
 ### Length Validation
 Explain the length rule you used.
-> Write your answer here.
+> Length Validation was used on the registration code part. The program calls the len() function to recognize the rule that the text string contains exactly 6 characters.
 ---
 # Part D - Testing
 Test your program using both valid and invalid inputs.
