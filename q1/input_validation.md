@@ -230,73 +230,125 @@ Choose any **three tests** from Part D.
 ## Verification Test 1
 **Input:**
 ```text
-Write the input here.
+Enter student name: Jeanne Autentico
+Enter age: 13
+Enter grade level: 8
+Enter email: jeanne@pshs.edu.ph
+Enter registration code: 123456
 
 ```
 **Expected Output:**
 ```text
-Write the expected output here.
+------------------------------
+REGISTRATION ACCEPTED
+------------------------------
+Enter student name: Jeanne Autentico
+Enter age: 13
+Enter grade level: 8
+Enter email: jeanne@pshs.edu.ph
+Enter registration code: 123456
+
 ```
 **Actual Output:**
 ```text
-Write the actual output here.
+------------------------------
+REGISTRATION ACCEPTED
+------------------------------
+Enter student name: Jeanne Autentico
+Enter age: 13
+Enter grade level: 8
+Enter email: jeanne@pshs.edu.ph
+Enter registration code: 123456
+
 ```
-**Result:** PASS / FAIL
+**Result:** PASS 
+>
 **Explanation:**
-> Explain why the output is correct or incorrect.
+> Since everything entered followed the rules perfectly, the program did not find any mistakes and just let the registration go through normally.
 ---
 ## Verification Test 2
 **Input:**
 ```text
-Write the input here.
+Enter student name: Jeanne Autentico
+Enter age: thirteen
+Enter grade level: 8
+Enter email: jeanne@pshs.edu.ph
+Enter registration code: 123
 ```
 **Expected Output:**
 ```text
-Write the expected output here.
+------------------------------
+REGISTRATION NOT ACCEPTED
+Reasons:
+- Your age should be a number and you should be in the range of 11 - 18
+- The registration code must contain exactly 6 characters.
 ```
 **Actual Output:**
 ```text
-Write the actual output here.
+------------------------------
+REGISTRATION NOT ACCEPTED
+Reasons:
+- Your age should be a number and you should be in the range of 11 - 18
+- The registration code must contain exactly 6 characters.
 ```
-**Result:** PASS / FAIL
+**Result:** PASS 
+>
 **Explanation:**
-> Explain why the output is correct or incorrect.
+> Since the user entered words for the age and a code that was too short, the program found both mistakes and listed them together as reasons at the end.
 ---
 ## Verification Test 3
 **Input:**
 ```text
-Write the input here.
+Enter student name: 
+Enter age: 5
+Enter grade level: 4
+Enter email: jeannepshs.edu.ph
+Enter registration code: 123456789
 ```
 **Expected Output:**
 ```text
-Write the expected output here.
+------------------------------
+REGISTRATION NOT ACCEPTED
+Reasons:
+- Student name is required.
+- Your age should be a number and you should be in the range of 11 - 18
+- Invalid grade level.
+- Invalid email address format.
+- The registration code must contain exactly 6 characters.
 ```
 **Actual Output:**
 
 ```text
-Write the actual output here.
+------------------------------
+REGISTRATION NOT ACCEPTED
+Reasons:
+- Student name is required.
+- Your age should be a number and you should be in the range of 11 - 18
+- Invalid grade level.
+- Invalid email address format.
+- The registration code must contain exactly 6 characters.
 ```
-**Result:** PASS / FAIL
+**Result:** PASS 
+>
 **Explanation:**
-> Explain why the output is correct or incorrect.
+> Since every single input broke the rules at the same time, the program collected all five mistakes and listed them all together at the very end.
 ---
 # Reflection
 Answer briefly.
 ### 1. Why should a program validate input before processing it?
-> Write your answer here.
+> It makes sure the program doesn't glitch out or completely crash when someone types in the wrong thing by accident
 ### 2. What is the difference between input validation and output verification?
-> Write your answer here.
+> Input validation is the computer automatically checking the information as soon as you type it in. Output verification is a person checking the final results at the end to make sure everything looks right.
 ### 3. Which validation technique was easiest for you to implement? Why?
-> Write your answer here.
+> The name validation because it just checks if the box was left completely blank, which is super simple to do.
 ### 4. Which validation technique was most challenging? Why?
-> Write your answer here.
+> The age validation because you have to make sure the program checks if the input is a real number first before it can even check if the number is between 11 and 18.
 ### 5. How did testing invalid inputs help you improve your program?
-> Write your answer here.
+> It helped me see if my error messages actually show up correctly and proved that the program won't shut down early when people make mistakes.
 ---
 # Files for This Activity
 - [`workshop_validator.py`](workshop_validator.py)
 - `input_validation.md`
-- `workshop_validator_flowchart.png` if a flowchart was used
 ---
 
 [← Back to Main Portfolio](../README.md)
