@@ -6,10 +6,10 @@
 #### ₊✩‧₊˚౨ৎ˚₊✩‧₊  1st Quarter  ₊✩‧₊˚౨ৎ˚₊✩‧₊
 
 > Hello world code file:
-[Hello.py](q1/hello.py)
+- [Hello.py](q1/hello.py)
 >
 > Distance Activity:
-[Distance.py](q1/Autentico_JeanneAudrey_Distance.py)
+- [Distance.py](q1/Autentico_JeanneAudrey_Distance.py)
 >
 > Score Checker Activity:
 - [Score Checker Markdown file](q1/score_checker.md)
