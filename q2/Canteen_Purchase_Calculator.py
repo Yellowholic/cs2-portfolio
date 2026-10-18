@@ -36,5 +36,3 @@ else:
 #
 # 4. Why is it useful to separate total calculation from change calculation?
 #    - It makes code easier to understand, easier to fix, and lets you reuse one without the other getting in it's way
-
- 
