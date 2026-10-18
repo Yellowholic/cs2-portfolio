@@ -20,3 +20,5 @@
 - [Workshop Validator code file](q1/workshop_validator.py)
 >
 #### ₊✩‧₊˚౨ৎ˚₊✩‧₊  2nd Quarter  ₊✩‧₊˚౨ৎ˚₊✩‧₊
+> Canteen Purchase Activity:
+- [Canteen Purchase Activity file](q2/Canteen_Purchase_Calculator.py)
