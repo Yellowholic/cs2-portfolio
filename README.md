@@ -18,3 +18,5 @@
 > Input Validation and Verification Activity:
 - [Input Validation Markdown file](q1/input_validation.md)
 - [Workshop Validator code file](q1/workshop_validator.py)
+>
+#### ₊✩‧₊˚౨ৎ˚₊✩‧₊  2nd Quarter  ₊✩‧₊˚౨ৎ˚₊✩‧₊
