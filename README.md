@@ -22,3 +22,6 @@
 #### ₊✩‧₊˚౨ৎ˚₊✩‧₊  2nd Quarter  ₊✩‧₊˚౨ৎ˚₊✩‧₊
 > Canteen Purchase Activity:
 - [Canteen Purchase Activity file](q2/Canteen_Purchase_Calculator.py)
+>
+> Student Performance Activity:
+- [Student Performance Evaluator Activity file](q2/Student_Performance_Evaluator.py)
