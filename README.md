@@ -27,4 +27,4 @@
 - [Student Performance Evaluator Activity file](q2/Student_Performance_Evaluator.py)
 >
 > Iteration Activity:
-- [Folder containing all the Python files of the iteration activity](q2/IterativeControlActivity)
+- [Folder containing all the Python files of the iteration activity](q2/Iterative_Control_Activity)
